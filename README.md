@@ -18,3 +18,13 @@ acct.withdrawMoney(5000);
 console.log(acct.balance);   
 ```
 Expected Output: ```95000```
+
+### Describe: BankAccount.prototype.depositMoney()
+Test: "It should add input amount to account balance" 
+Code:
+``` 
+acct = new BankAccount("Aaron's Money", 100000);   
+acct.depositMoney(5000);   
+console.log(acct.balance);   
+```
+Expected Output: ```105000```
